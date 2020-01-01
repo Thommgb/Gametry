@@ -100,5 +100,28 @@ class UserAnswer {
         var selectCharacter : CharacterType
         var selectEnnemi : EnnemiType
     }
+}
 
+class Weapon {
+    var weaponName : String
+    var damage : Int
+    
+
+    init(weaponName: String, damage: Int) {
+    self.weaponName = weaponName
+    self.damage = damage
+    
+    }
+}
+
+class Action {
+    var canAttack : Bool
+    var canHeal : Bool
+
+init(attack: Bool, heal: Bool) {
+    self.canAttack = attack
+    self.canHeal = heal
+            }
+        }
+    }
 }
