@@ -76,3 +76,29 @@ class Texte {
                 }
             }
         }
+
+class UserAnswer {
+    
+    func chooseName(of type: String) -> String? {
+
+    if let line = readLine() {
+        if String?(line) != nil {
+            }
+        }
+         print("Je n'ai pas compris.")
+
+            return nil
+    }
+
+    func selectAction() {
+    var weapon : Weapon
+    var selectCharacter = SelectCharacter()
+    var action : Action
+    }
+    
+    func SelectCharacter() {
+        var selectCharacter : CharacterType
+        var selectEnnemi : EnnemiType
+    }
+
+}
